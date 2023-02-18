@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="webpage">
+        <div id="topBar">
+            <div class="pageTitle">
+                <h1 style="font-size: 50px;">Dojonary</h1>
+            </div>
+            <div class="searchBar"><textarea>Search</textarea></div>
+            <div class="logoutBtn"><button onclick="signInBtn(this)">Logout</button></div>
+        </div>
+        <div id="restBody">
+            <div id="leftBody">
+                <div class="topSelection">
+                    <div class="SelectionLeft">
+                        <ul>
+                            <li><h1>ninja</h1></li>
+                            <li>Noun</li>
+                            <li>Plural: ninjas</li>
+                            <li><button onclick="alert('Ninja was liked')">13 likes</button></li>
+                        </ul>
+                    </div>
+                    <div class="SelectionRight">
+                        <p>A practitionar skilled in the<a href="#">Japanese</a>art of<a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="bottomSelection">
+                    <div class="SelectionLeft">
+                        <ul>
+                            <li><h1>ninja</h1></li>
+                            <li>Noun</li>
+                            <li>Plural: ninjas</li>
+                            <li><button onclick="increasedLike(this)">37 likes</button></li>
+                        </ul>
+                    </div>
+                    <div class="SelectionRight">
+                        <p>A<a href="#">programmer</a>who breaks down problems with<a href="#">zen</a>-like focus</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="rightBody">
+                <div class="Dojoary">
+                    <ul>
+                        <li>Dojoary is <br>defined by<b>YOU</b></li>
+                        <li style="text-align: center;"><button class="DojoaryButton" onclick="addDefintion(this)">Add Defintion</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
